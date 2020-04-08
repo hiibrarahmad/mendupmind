@@ -35,7 +35,7 @@ class _ButtonLoginState extends State<ButtonLogin> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text(
-                'OK',
+                'Sign in',
                 style: TextStyle(
                   color: Colors.lightBlueAccent,
                   fontSize: 14,
