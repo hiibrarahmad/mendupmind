@@ -20,7 +20,7 @@ class _InputEmailState extends State<InputEmail> {
           decoration: InputDecoration(
             border: InputBorder.none,
             fillColor: Colors.lightBlueAccent,
-            labelText: 'Email',
+            labelText: 'put your email',//email to put your email
             labelStyle: TextStyle(
               color: Colors.white70,
             ),

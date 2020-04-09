@@ -13,12 +13,12 @@ class _FirstTimeState extends State<FirstTime> {
       padding: const EdgeInsets.only(top: 30, left: 30),
       child: Container(
         alignment: Alignment.topRight,
-        //color: Colors.red,
+        color: Colors.red,
         height: 20,
         child: Row(
           children: <Widget>[
             Text(
-              'Your first time?',
+              'is this Your first time?',
               style: TextStyle(
                 fontSize: 12,
                 color: Colors.white70,
@@ -34,7 +34,7 @@ class _FirstTimeState extends State<FirstTime> {
                 'Sing up',
                 style: TextStyle(
                   fontSize: 12,
-                  color: Colors.white,
+                  color: Colors.grey,
                 ),
                 textAlign: TextAlign.right,
               ),
@@ -45,3 +45,5 @@ class _FirstTimeState extends State<FirstTime> {
     );
   }
 }
+//todo: connect with firebase
+
